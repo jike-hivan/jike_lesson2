@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>青岛家教网 注册页面 - 2</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- 注册页面头部 -->
+  <header class="top">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td width="29" height="28" valign="top"><img src="jiaos1.gif" width="29" height="28" alt=""></td>
+          <td rowspan="2" width="220" height="72">
+            <a href="http://www.qdjj.net"><img src="qdjjlogo.gif" alt=""></a>
+          </td>
+          <td rowspan="2" align="right" valign="bottom" class="nav">
+            <a href="http://www.qdjj.net/member/register.asp">注册</a>
+            <a href="http://www.qdjj.net/member/login.asp">登录</a>
+            <a href="javascript:window.external.addFavorite('http://www.qdjj.net','青岛家教网')">收藏本站</a>
+          </td>
+          <td width="29" height="28" valign="top"><img src="jiaos2.gif" alt=""></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+  </header>
+  <!-- End 注册页面头部 -->
+  <!-- 注册页面表单部分 -->
+  <article class="content">
+    <form name="form1" accept-charset="utf-8">
+      <table>
+        <caption>新教员注册第二步</caption>
+        <thead>
+          <tr>
+            <th colspan="2"><span>您的注册资料越详细就越有利于家长和学员检索，也就越容易获得家长的预约，所以请您务必如实详细地填写。 其中红色星号（<span class="matter_font">*</span>）为必填。我们已对您的个人信息做保密处理，您的信息是安全的。
+              <br /> 您选择的是
+              <span class="matter_font">社会职业人士</span>身份,若有误请<a href="javascript:history.go(-1);">返回</a>更改</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="title">
+            <td colspan="2" align="left">基本资料</td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>真实姓名:</td>
+            <td width="496">
+              <input type="text" name="name" placeholder="输入真实姓名" required>
+              <br><span class="matter_font">注意:</span><span class="tip_font">姓名应与身份证完全一致，本网站将对你的姓名严格保密，只显示您的姓，如“张教员”。此部分将在认证时严格审查，一经填写不得修改，与证件不符者将不能通过认证！</span></td>
+          </tr>
+          <tr>
+            <td>身份证/护照:</td>
+            <td>
+              <input type="text" name="passport" placeholder="输入身份证或者护照"><span class="tip_font">(此项将严格保密，不对外公开)</span></td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>性别</td>
+            <td>
+              <select name="sex" id="" required>
+                <option value="" selected>请选择</option>
+                <option value="">男</option>
+                <option value="">女</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>出生年份</td>
+            <td>
+              <input type="month" required name="year">
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>专业</td>
+            <td>
+              <input type="text" name="professional" required="required" placeholder="计算机"><span class="tip_font">请如实填写专业全名，以学生证为准。此部分将在认证时严格审查，与证件不符者将不能通过认证！</span></td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>目前(最高)学历:</td>
+            <td>
+              <select name="" id="" required="required" placeholder="计算机">
+                <option value="" selected>--请选择--</option>
+                <option value="">大学</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>目前身份:</td>
+            <td>
+              <input type="text" name="status" required placeholder="Teacher"><span class="tip_font">如：软件工程师，翻译，财务，研究员，自由职业者等</span></td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>籍贯(生源地):</td>
+            <td>
+              <select name="" id="" required>
+                <option value="" selected>--请选择--</option>
+                <option value="">北京</option>
+                <option value="">上海</option>
+              </select>
+              <span class="tip_font">（并非指当前所在地）</span>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>毕业/就读高校:</td>
+            <td><input type="text" required placeholder="中央美院" name="class"></td>
+          </tr>
+          <tr class="title">
+            <td colspan="2">联系方式</td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>手机/小灵通:</td>
+            <td>
+              <input type="tel" name="telphone" required placeholder="181XXXXXXXX"><span class="tip_font">最好留下多个联系方式，换号时请及时更新联系方式</span></td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>目前住所:</td>
+            <td>
+              <select name="" id="" class="w195" required>
+                <option value="" selected>--请选择--</option>
+                <option value="">北京</option>
+                <option value="">上海</option>
+              </select>
+              <span class="tip_font">选择离您的住所最近的地点</span>
+            </td>
+          </tr>
+          <tr>
+            <td>家庭或校外住所:</td>
+            <td>
+              <select name="" id="" class="w195">
+                <option value="" selected>--请选择--</option>
+                <option value="">北京</option>
+                <option value="">上海</option>
+              </select>
+              <span class="tip_font">请家在青岛市区或住在校外的教员填写</span>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>Email:</td>
+            <td>
+              <input type="email" name="email" required placeholder="192727@qq.com"><span class="tip_font">(为通知合适您的家教及找回密码，请认真填写)</span></td>
+          </tr>
+          <tr>
+            <td>QQ:</td>
+            <td>
+              <input type="number" min="10000" name="QNumber" placeholder="192727">
+            </td>
+          </tr>
+          <tr>
+            <td>详细地址:</td>
+            <td>
+              <input type="address" name="address" placeholder="上海 某城区 某街道"><span class="tip_font"> (以方便我们给您寄送家教相关资料及协议等。)</span></td>
+          </tr>
+          <tr class="title">
+            <td colspan="2">家 教 信 息</td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>普通话:</td>
+            <td>
+              <select name="" id="" required>
+                <option value="" selected>一般</option>
+                <option value="">好</option>
+                <option value="">很好</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>第一外语:</td>
+            <td>
+              <select name="" id="" required>
+                <option value="" selected>英语</option>
+                <option value="">德语</option>
+                <option value="">日语</option>
+              </select>
+              <select name="" id="" required>
+                <option value="" selected>一般</option>
+                <option value="">好</option>
+                <option value="">很好</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>第二外语:</td>
+            <td>
+              <select name="" id="">
+                <option value="" selected>无</option>
+                <option value="">德语</option>
+                <option value="">日语</option>
+              </select>
+              <select name="" id="">
+                <option value="" selected>一般</option>
+                <option value="">好</option>
+                <option value="">很好</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>自我描述与特长展示:</td>
+            <td>
+              <textarea name="" cols="60" rows="6" required placeholder="我是一个程序员"></textarea>
+              <br>
+              <span class="tip_font">全面展示你的实力和优势特长，增加你简历的含金量！例如：在比赛中得过什么重要奖项，获得过什么奖学金，取得什么样的高考成绩，有哪些能证明你能力的资格证书之类。 不得少于50字，不得超过500字。家长选择你的重要依据，请认真填写！</span>
+            </td>
+          </tr>
+          <tr>
+            <td>家教经历(教学成果):</td>
+            <td>
+              <textarea name="" cols="60" rows="6" placeholder="四年经验"></textarea>
+              <br>
+              <span class="tip_font">这些内容是对您教学水平最有力和最直接的反映！是学员选择您的一项重要依据。字数500字以内。最好说明辅导时间、学生年级、辅导效果。专职老师详述自己的教学成果和荣誉奖励。</span>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>可辅导的科目 （不超过10项）
+            </td>
+            <td>
+              <span class="matter_font">教员在选择中考、高考、雅思、新概念等有难度的科目时应量力而行，最好有实际辅导经验</span>
+              <br>
+              <div class="gate"><b>-----小学-----</b></div>
+              <div>
+                <input type="checkbox" name="">
+                <label for="">小学语文</label>
+                <input type="checkbox" name="">
+                <label for="">小学数学</label>
+                <input type="checkbox" name="">
+                <label for="">小学英语</label>
+                <input type="checkbox" name="">
+                <label for="">小学奥数</label>
+                <input type="checkbox" name="">
+                <label for="">小学全科</label>
+              </div>
+              <div class="gate"><b>-----初中-----</b></div>
+              <div>
+                <input type="checkbox">
+                <label for="">初中语文</label>
+                <input type="checkbox">
+                <label for="">初中英语</label>
+                <input type="checkbox">
+                <label for="">初中数学</label>
+                <input type="checkbox">
+                <label for="">初中物理</label>
+                <input type="checkbox">
+                <label for="">初中化学</label>
+                <input type="checkbox">
+                <label for="">初中地理</label>
+                <input type="checkbox">
+                <label for="">初中生物</label>
+                <input type="checkbox">
+                <label for="">初中数理化</label>
+                <input type="checkbox">
+                <label for="">初中全科</label>
+                <input type="checkbox">
+                <label for="">初中奥数</label>
+                <input type="checkbox">
+                <label for="">中考语文</label>
+                <input type="checkbox">
+                <label for="">中考英语</label>
+                <input type="checkbox">
+                <label for="">中考数学</label>
+                <input type="checkbox">
+                <label for="">中考物理</label>
+                <input type="checkbox">
+                <label for="">中考化学</label>
+                <input type="checkbox">
+                <label for="">中考数理化</label>
+                <input type="checkbox">
+                <label for="">中考全科</label>
+                <input type="checkbox">
+                <label for="">中考心理辅导</label>
+              </div>
+              <div class="gate"><b>-----高中-----</b></div>
+              <div>
+                <input type="checkbox">
+                <label for="">高一高二语文</label>
+                <input type="checkbox">
+                <label for="">高一高二英语</label>
+                <input type="checkbox">
+                <label for="">高一高二数学</label>
+                <input type="checkbox">
+                <label for="">高一高二物理</label>
+                <input type="checkbox">
+                <label for="">高一高二化学</label>
+                <input type="checkbox">
+                <label for="">高一高二地理</label>
+                <input type="checkbox">
+                <label for="">高一高二生物</label>
+                <input type="checkbox">
+                <label for="">高考语文</label>
+                <input type="checkbox">
+                <label for="">高考英语</label>
+                <input type="checkbox">
+                <label for="">高考数学</label>
+                <input type="checkbox">
+                <label for="">高考物理</label>
+                <input type="checkbox">
+                <label for="">高考化学</label>
+                <input type="checkbox">
+                <label for="">高考数理化</label>
+                <input type="checkbox">
+                <label for="">高考美术</label>
+                <input type="checkbox">
+                <label for="">高考理综</label>
+                <input type="checkbox">
+                <label for="">高考文综</label>
+                <input type="checkbox">
+                <label for="">高考心理辅导</label>
+              </div>
+              <div class="gate"><b>-----大学-----</b></div>
+              <div>
+                <input type="checkbox">
+                <label for="">高等数学</label>
+                <input type="checkbox">
+                <label for="">考研数学</label>
+              </div>
+              <div class="gate"><b>-----英语-----</b></div>
+              <div>
+                <input type="checkbox">
+                <label for="">英语口语</label>
+                <input type="checkbox">
+                <label for="">新概念英语</label>
+                <input type="checkbox">
+                <label for="">牛津英语</label>
+                <input type="checkbox">
+                <label for="">英语四级</label>
+                <input type="checkbox">
+                <label for="">英语六级</label>
+                <input type="checkbox">
+                <label for="">GRE</label>
+                <input type="checkbox">
+                <label for="">托福</label>
+                <input type="checkbox">
+                <label for="">雅思</label>
+                <input type="checkbox">
+                <label for="">初级商务英语</label>
+                <input type="checkbox">
+                <label for="">高级商务英语</label>
+                <input type="checkbox">
+                <label for="">剑桥英语</label>
+              </div>
+              <div class="gate"><b>-----小语种-----</b></div>
+              <div>
+                <input type="checkbox">
+                <label for="">日语</label>
+                <input type="checkbox">
+                <label for="">法语</label>
+                <input type="checkbox">
+                <label for="">德语</label>
+                <input type="checkbox">
+                <label for="">韩语</label>
+                <input type="checkbox">
+                <label for="">俄语</label>
+                <input type="checkbox">
+                <label for="">西班牙语</label>
+                <input type="checkbox">
+                <label for="">葡萄牙语</label>
+                <input type="checkbox">
+                <label for="">阿拉伯语</label>
+              </div>
+              <div class="gate"><b>-----艺术-----</b></div>
+              <div>
+                <input type="checkbox">
+                <label for="">摄影</label>
+                <input type="checkbox">
+                <label for="">书法</label>
+                <input type="checkbox">
+                <label for="">美术</label>
+                <input type="checkbox">
+                <label for="">漫画</label>
+                <input type="checkbox">
+                <label for="">中国画</label>
+                <input type="checkbox">
+                <label for="">西洋画</label>
+                <input type="checkbox">
+                <label for="">交谊舞</label>
+                <input type="checkbox">
+                <label for="">芭蕾舞</label>
+                <input type="checkbox">
+                <label for="">声乐(美声)</label>
+                <input type="checkbox">
+                <label for="">声乐(民族)</label>
+              </div>
+              <div class="gate"><b>-----乐器-----</b></div>
+              <div>
+                <input type="checkbox">
+                <label for="">钢琴</label>
+                <input type="checkbox">
+                <label for="">电子琴</label>
+                <input type="checkbox">
+                <label for="">小提琴</label>
+                <input type="checkbox">
+                <label for="">大提琴</label>
+                <input type="checkbox">
+                <label for="">长笛</label>
+                <input type="checkbox">
+                <label for="">吉它</label>
+                <input type="checkbox">
+                <label for="">手风琴</label>
+                <input type="checkbox">
+                <label for="">萨克斯</label>
+                <input type="checkbox">
+                <label for="">打击乐</label>
+                <input type="checkbox">
+                <label for="">小号</label>
+                <input type="checkbox">
+                <label for="">大号</label>
+                <input type="checkbox">
+                <label for="">圆号</label>
+                <input type="checkbox">
+                <label for="">二胡</label>
+                <input type="checkbox">
+                <label for="">笛子</label>
+                <input type="checkbox">
+                <label for="">琵琶</label>
+                <input type="checkbox">
+                <label for="">古筝</label>
+                <input type="checkbox">
+                <label for="">古琴</label>
+              </div>
+              <div class="gate"><b>-----计算机-----</b></div>
+              <div>
+                <input type="checkbox">
+                <label for="">计算机基本操作</label>
+                <input type="checkbox">
+                <label for="">数据库</label>
+                <input type="checkbox">
+                <label for="">网页设计与制作</label>
+                <input type="checkbox">
+                <label for="">计算机应用能力</label>
+                <input type="checkbox">
+                <label for="">Linux或Unix</label>
+                <input type="checkbox">
+                <label for="">网站开发</label>
+                <input type="checkbox">
+                <label for="">图像处理软件</label>
+                <input type="checkbox">
+                <label for="">动画制作</label>
+                <input type="checkbox">
+                <label for="">程序设计</label>
+                <input type="checkbox">
+                <label for="">程序设计高级</label>
+                <input type="checkbox">
+                <label for="">微软证书</label>
+              </div>
+              <div class="gate"><b>-----棋类/体育-----</b></div>
+              <div>
+                <input type="checkbox">
+                <label for="">围棋</label>
+                <input type="checkbox">
+                <label for="">中国象棋</label>
+                <input type="checkbox">
+                <label for="">国际象棋</label>
+                <input type="checkbox">
+                <label for="">拳击</label>
+                <input type="checkbox">
+                <label for="">截拳道</label>
+                <input type="checkbox">
+                <label for="">跆拳道</label>
+                <input type="checkbox">
+                <label for="">空手道</label>
+                <input type="checkbox">
+                <label for="">瑜珈</label>
+                <input type="checkbox">
+                <label for="">滑冰旱冰</label>
+                <input type="checkbox">
+                <label for="">游泳</label>
+                <input type="checkbox">
+                <label for="">乒乓球</label>
+                <input type="checkbox">
+                <label for="">羽毛球</label>
+                <input type="checkbox">
+                <label for="">网球</label>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>最擅长的科目</td>
+            <td>
+              <input type="text"><span class="tip_font">请填写你最拿手、最有经验的科目，例如：“英语、初中数理化、高三数学”，越具体越好，不超过三项</span></td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>方便授课区域</td>
+            <td>
+              <div class="gate"><b>-----市南---</b>
+                <input type="checkbox">
+                <label for="" class="matter_font">市南全区</label>
+              </div>
+              <div>
+                <input type="checkbox">
+                <label for="">团岛</label>
+                <input type="checkbox">
+                <label for="">火车站（栈桥）</label>
+                <input type="checkbox">
+                <label for="">中山路</label>
+                <input type="checkbox">
+                <label for="">海大鱼山校区（大学路）</label>
+                <input type="checkbox">
+                <label for="">汇泉广场</label>
+                <input type="checkbox">
+                <label for="">八大关</label>
+                <input type="checkbox">
+                <label for="">市政府</label>
+                <input type="checkbox">
+                <label for="">书城</label>
+                <input type="checkbox">
+                <label for="">广电大厦（大福源）</label>
+                <input type="checkbox">
+                <label for="">澳柯玛立交桥（百安居）</label>
+                <input type="checkbox">
+                <label for="">青岛大学（麦岛）</label>
+                <input type="checkbox">
+                <label for="">东部市立医院</label>
+                <input type="checkbox">
+                <label for="">湛山</label>
+              </div>
+              <div class="gate"><b>-----市北---</b>
+                <input type="checkbox">
+                <label for="" class="matter_font">市北全区</label>
+              </div>
+              <div>
+                <input type="checkbox">
+                <label for="">小港</label>
+                <input type="checkbox">
+                <label for="">市立医院（西部）</label>
+                <input type="checkbox">
+                <label for="">电子信息城</label>
+                <input type="checkbox">
+                <label for="">台东</label>
+                <input type="checkbox">
+                <label for="">内蒙古路长途汽车站</label>
+                <input type="checkbox">
+                <label for="">错埠岭小区</label>
+                <input type="checkbox">
+                <label for="">浮山后</label>
+                <input type="checkbox">
+                <label for="">山东路家乐福</label>
+                <input type="checkbox">
+                <label for="">敦化路</label>
+                <input type="checkbox">
+                <label for="">青岛图书馆</label>
+              </div>
+              <div class="gate"><b>-----四方---</b>
+                <input type="checkbox">
+                <label for="" class="matter_font">四方全区</label>
+              </div>
+              <div>
+                <input type="checkbox">
+                <label for="">四方利群</label>
+                <input type="checkbox">
+                <label for="">青岛理工大学（抚顺路）</label>
+                <input type="checkbox">
+                <label for="">兴隆路</label>
+                <input type="checkbox">
+                <label for="">杭州路</label>
+                <input type="checkbox">
+                <label for="">瑞昌路</label>
+                <input type="checkbox">
+                <label for="">宜昌路</label>
+                <input type="checkbox">
+                <label for="">孤山村</label>
+                <input type="checkbox">
+                <label for="">东方家园（公交四公司）</label>
+                <input type="checkbox">
+                <label for="">水清沟（市肿瘤医院） </label>
+                <input type="checkbox">
+                <label for="">青岛科技大学（胜利桥）</label>
+                <input type="checkbox">
+                <label for="">海琴广场</label>
+                <input type="checkbox">
+                <label for="">北岭</label>
+                <input type="checkbox">
+                <label for="">杨家群</label>
+              </div>
+              <div class="gate"><b>-----李沧---</b>
+                <input type="checkbox">
+                <label for="" class="matter_font">李沧全区</label>
+              </div>
+              <div>
+                <input type="checkbox">
+                <label for="">太原路</label>
+                <input type="checkbox">
+                <label for="">沧口</label>
+                <input type="checkbox">
+                <label for="">振华路立交桥</label>
+                <input type="checkbox">
+                <label for="">李沧区政府</label>
+                <input type="checkbox">
+                <label for="">李沧广场</label>
+                <input type="checkbox">
+                <label for="">李村公园</label>
+                <input type="checkbox">
+                <label for="">九水路立交桥</label>
+                <input type="checkbox">
+                <label for="">侯家庄</label>
+                <input type="checkbox">
+                <label for="">永安路</label>
+                <input type="checkbox">
+                <label for="">百通花园</label>
+                <input type="checkbox">
+                <label for="">百通馨园 </label>
+              </div>
+              <div class="gate"><b>-----崂山---</b>
+                <input type="checkbox">
+                <label for="" class="matter_font">崂山全区</label>
+              </div>
+              <div>
+                <input type="checkbox">
+                <label for="">颐中体育场</label>
+                <input type="checkbox">
+                <label for="">辽阳路立交桥</label>
+                <input type="checkbox">
+                <label for="">青岛国际啤酒城</label>
+                <input type="checkbox">
+                <label for="">青岛科技大学东部校区</label>
+                <input type="checkbox">
+                <label for="">石老人</label>
+                <input type="checkbox">
+                <label for="">青岛市博物馆</label>
+                <input type="checkbox">
+                <label for="">海大崂山校区</label>
+                <input type="checkbox">
+                <label for="">中韩</label>
+                <input type="checkbox">
+                <label for="">沙子口</label>
+                <input type="checkbox">
+                <label for="">北村</label>
+              </div>
+              <div class="gate"><b>-----城阳---</b>
+                <input type="checkbox">
+                <label for="">城阳全区</label>
+              </div>
+              <div class="gate"><b>-----黄岛---</b>
+                <input type="checkbox">
+                <label for="">黄岛全区</label>
+              </div>
+              <div class="gate"><b>-----即墨---</b>
+                <input type="checkbox">
+                <label for="">即墨全区</label>
+              </div>
+              <div class="gate"><b>-----胶州---</b>
+                <input type="checkbox">
+                <label for="">胶州全区</label>
+              </div>
+              <div class="gate"><b>-----胶南---</b>
+                <input type="checkbox">
+                <label for="">胶南全区</label>
+              </div>
+              <div class="gate"><b>-----平度---</b>
+                <input type="checkbox">
+                <label for="">平度全区</label>
+              </div>
+              <div class="gate"><b>-----莱西---</b>
+                <input type="checkbox">
+                <label for="">莱西全区</label>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>可授课时间:</td>
+            <td>
+              <input type="text" name="class_time" required placeholder="早上12点"><span class="tip_font">（请注意及时更新授课时间）</span></td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>辅导方式:</td>
+            <td>
+              <input type="checkbox">
+              <label for="">教员上门</label>
+              <input type="checkbox">
+              <label for="">学员上门</label>
+              <input type="checkbox">
+              <label for="">网上辅导</label>
+              <input type="checkbox">
+              <label for="">可协商</label>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="matter_font">*</span>薪酬要求:</td>
+            <td>
+              <textarea name="" cols="60" rows="6" placeholder="执行青岛家教网薪水标准" required name="money"></textarea>
+              <br>
+              <span class="tip_font">默认为接受青岛家教网的课时费标准（查看详细的报酬标准<变成链接>)，如果不同意，也可以在表中列出自己的薪酬要求，如：小学**元/时、小学奥数**元/时、初一**元/时、高三**元/时、钢琴**元/时、陪读**元/月。</span>
+            </td>
+          </tr>
+          <tr class="submit_col">
+            <td colspan="2" align="center">
+              <input type="submit" value="提交">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </article>
+  <!-- end 注册页面表单部分 -->
+  <!-- 注册页面页脚 -->
+  <footer class="footer">
+    <table align="center" cellpadding="0" cellspacing="0" border="0">
+      <tbody>
+        <tr>
+          <td>&nbsp;</td>
+          <td><span class="ver">Copyright © 2003～2008</span> 版权所有 青岛家教网</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="29"><img src="di1.gif" alt=""></td>
+          <td>&nbsp;</td>
+          <td width="29"><img src="di2.gif" alt=""></td>
+        </tr>
+      </tbody>
+    </table>
+  </footer>
+  <!-- end 注册页面页脚 -->
+</body>
+
+</html>
